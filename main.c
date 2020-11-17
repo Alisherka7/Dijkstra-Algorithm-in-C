@@ -153,7 +153,7 @@ void shortest_path_dijkstra(int start){
 
 int main(){
     int i;
-    load_wgraph("/Users/alisherka7/Documents/Lesson/Lesson/wgraph_sp.txt");
+    load_wgraph("wgraph_sp.txt");
     printf("Shortest path By Dijkstra Algorithm\n");
     shortest_path_dijkstra(0);
     for (i=1; i<vsize; i++){
